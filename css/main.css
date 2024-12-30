@@ -27,6 +27,17 @@ nav > ul > li {
     list-style-type: none;
 }
 
+header nav ul li :hover {
+    background-color: #FFDADA;
+    border-radius: 30px;
+    color: black;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: white;
+padding: 10px;
+}
 
 /* ---------------- Hero Section ---------------- */
 .hero {
