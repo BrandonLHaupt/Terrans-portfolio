@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFDADA;
+}
+
+/* ---------------- Nav Section ---------------- */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    background-color: #E3A3A3;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0 8rem;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+
+/* ---------------- Hero Section ---------------- */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #E3A3A3;
+}
+
+.profileImg {
+    border-radius: 32px;
+}
+
+
+/* ---------------- Project Section ---------------- */
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0 2rem;
+    margin: 0 2rem;
+}
+
+.project {
+    background-color: #E3A3A3;
+    height: 330px;
+    width: 370px;
+    border-radius: 32px;
+}
+
+
+
+
+
+
+
+
