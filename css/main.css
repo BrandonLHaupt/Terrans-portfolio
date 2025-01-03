@@ -23,7 +23,6 @@ nav > ul {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding: 0 2rem;
 }
 
 nav > ul > li {
@@ -121,4 +120,9 @@ header nav ul li a {
 }
 
 
-
+/* 360px
+568px
+666px
+768px
+1024px
+1300px */
