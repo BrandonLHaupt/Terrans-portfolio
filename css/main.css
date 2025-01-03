@@ -128,6 +128,18 @@ header nav ul li a {
         flex-direction: column;
         justify-content: center;
     }
+
+    .text-container h1 {
+        font-size: 3rem;
+    }
+
+    .text-container h2 {
+        font-size: 2rem;
+    }
+
+    .text-container h3 {
+        font-size: 1rem;
+    }
 }
 
 
