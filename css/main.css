@@ -53,6 +53,7 @@ header nav ul li a {
 
 .profileImg {
     border-radius: 32px;
+    width: 20rem;
 }
 
 .text-container {
@@ -113,7 +114,7 @@ header nav ul li a {
 
 @media (max-width: 1120px) {
     .hero img {
-        height: 50%;
+        width: 15rem;
     }
 }
 
@@ -141,11 +142,3 @@ header nav ul li a {
         font-size: 1rem;
     }
 }
-
-
-/* 360px
-568px
-666px
-768px
-1024px
-1300px */
