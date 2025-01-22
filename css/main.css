@@ -114,11 +114,14 @@ header nav ul li a {
 } */
 
 .active {
-    position: absolute;
+    position: fixed;
     width: 60%;
     height: 80%;
     transition: ease-in-out .4s;
     padding: 20px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
 }
 
 .bgChange {
