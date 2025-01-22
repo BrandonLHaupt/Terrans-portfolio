@@ -119,11 +119,9 @@ header nav ul li a {
     height: 80%;
     transition: ease-in-out .4s;
     padding: 20px;
-    /* background-color: #0000009b; */
 }
 
 .bgChange {
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.658);
     height: 100%;
     width: 100%;
