@@ -98,6 +98,10 @@ header nav ul li a {
     border-radius: 32px;
 }
 
+.project:hover {
+    cursor: pointer;
+}
+
 .project img {
     height: 100%;
     width: 100%;
@@ -105,8 +109,15 @@ header nav ul li a {
     object-fit: contain;
 }
 
-.project3 img {
+/* .project3 img {
     object-fit: cover;
+} */
+
+.active {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    transition: ease-in-out .4s;
 }
 
 
