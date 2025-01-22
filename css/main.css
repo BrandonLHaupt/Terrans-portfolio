@@ -118,7 +118,19 @@ header nav ul li a {
     width: 60%;
     height: 80%;
     transition: ease-in-out .4s;
+    padding: 20px;
+    /* background-color: #0000009b; */
 }
+
+.bgChange {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+
+
 
 
 /* ---------------- Media Query ---------------- */
